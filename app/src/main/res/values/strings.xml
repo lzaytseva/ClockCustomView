@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ClockCustomView</string>
+    <string name="restore_state">Restore</string>
+    <string name="styles">Styles</string>
+    <string name="usage">Usage</string>
+    <string name="change_frame_color">Change frame color</string>
+    <string name="local">Local</string>
+    <string name="london">London</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="add_city">Add city</string>
+</resources>

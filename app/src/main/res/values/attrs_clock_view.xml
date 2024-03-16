@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ClockCustomView">
+        <attr name="frameColor" format="color" />
+        <attr name="dialColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="hourHandColor" format="color" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="secondHandColor" format="color" />
+        <attr name="dotsColor" format="color" />
+        <attr name="textStyle" format="enum">
+            <enum name="basic" value="0" />
+            <enum name="basic_bold" value="1" />
+            <enum name="monospace" value="2" />
+            <enum name="serif" value="3" />
+            <enum name="sans_serif" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="clockViewStyle" format="reference" />
+
+    <!-- Стиль часов по умолчанию -->
+    <style name="DefaultClockViewStyle">
+        <item name="frameColor">@color/frameColor</item>
+        <item name="dialColor">@color/dialColor</item>
+        <item name="textColor">@color/text_color</item>
+        <item name="hourHandColor">@color/hourHandColor</item>
+        <item name="minuteHandColor">@color/minuteHandColor</item>
+        <item name="secondHandColor">@color/secondHandColor</item>
+        <item name="dotsColor">@color/dotsColor</item>
+        <item name="textStyle">basic_bold</item>
+    </style>
+
+</resources>

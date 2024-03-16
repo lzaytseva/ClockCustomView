@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/restoreConfigurationFragment">
+
+    <fragment
+        android:id="@+id/differentStylesFragment"
+        android:name="com.github.lzaytseva.clockcustomview.example.DifferentStylesFragment"
+        android:label="DifferentStylesFragment" />
+    <fragment
+        android:id="@+id/usageExampleFragment"
+        android:name="com.github.lzaytseva.clockcustomview.example.UsageExampleFragment"
+        android:label="UsageExampleFragment" />
+    <fragment
+        android:id="@+id/restoreConfigurationFragment"
+        android:name="com.github.lzaytseva.clockcustomview.example.RestoreConfigurationFragment"
+        android:label="RestoreConfigurationFragment" />
+</navigation>

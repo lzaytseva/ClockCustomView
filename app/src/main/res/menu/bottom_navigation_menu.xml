@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restoreConfigurationFragment"
+        android:icon="@drawable/ic_restore"
+        android:title="@string/restore_state" />
+    <item
+        android:id="@+id/differentStylesFragment"
+        android:icon="@drawable/ic_styles"
+        android:title="@string/styles" />
+
+    <item
+        android:id="@+id/usageExampleFragment"
+        android:icon="@drawable/ic_clock"
+        android:title="@string/usage" />
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.github.lzaytseva.clockcustomview.view.ClockCustomView
+        android:id="@+id/firstClock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:frameColor="@color/dark_blue"
+        app:layout_constraintBottom_toTopOf="@+id/thirdClock"
+        app:layout_constraintEnd_toStartOf="@id/secondClock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.lzaytseva.clockcustomview.view.ClockCustomView
+        android:id="@+id/secondClock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/fourthClock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/firstClock"
+        app:layout_constraintTop_toTopOf="parent"
+        app:secondHandColor="@android:color/holo_green_dark"
+        app:textStyle="monospace" />
+
+    <com.github.lzaytseva.clockcustomview.view.ClockCustomView
+        android:id="@+id/thirdClock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:dialColor="@android:color/holo_blue_dark"
+        app:dotsColor="@color/black"
+        app:hourHandColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/fourthClock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstClock"
+        app:minuteHandColor="@color/black"
+        app:textColor="@color/white"
+        app:textStyle="serif" />
+
+    <com.github.lzaytseva.clockcustomview.view.ClockCustomView
+        android:id="@+id/fourthClock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        app:dialColor="@color/black"
+        app:dotsColor="@color/white"
+        app:frameColor="@color/red"
+        app:hourHandColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thirdClock"
+        app:layout_constraintTop_toBottomOf="@+id/secondClock"
+        app:minuteHandColor="@color/white"
+        app:textColor="@color/white"
+        app:textStyle="basic" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#3772E7</color>
+    <color name="light_gray">#E6E8EB</color>
+
+    <color name="selected_tab_color">@color/dark_blue</color>
+    <color name="unselected_tab_color">@color/black</color>
+    <color name="window_background">@color/white</color>
+    <color name="btn_background">@color/black</color>
+    <color name="btn_text_color">@color/white</color>
+    <color name="text_color">@color/black</color>
+
+    <color name="frameColor">@color/black</color>
+    <color name="dialColor">@color/white</color>
+    <color name="textColor">@color/black</color>
+    <color name="hourHandColor">@color/black</color>
+    <color name="minuteHandColor">@color/black</color>
+    <color name="secondHandColor">@color/red</color>
+    <color name="dotsColor">@color/black</color>
+
+</resources>
